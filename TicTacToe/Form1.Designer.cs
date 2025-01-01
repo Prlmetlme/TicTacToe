@@ -1,4 +1,4 @@
-﻿namespace Journal
+﻿namespace TicTacToe
 {
     partial class Form1
     {
@@ -83,7 +83,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = " ";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button8
             // 
@@ -95,7 +95,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = " ";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button7
             // 
@@ -107,7 +107,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = " ";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button6
             // 
@@ -119,7 +119,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = " ";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button5
             // 
@@ -131,7 +131,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = " ";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button4
             // 
@@ -143,7 +143,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = " ";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button3
             // 
@@ -155,7 +155,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = " ";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button2
             // 
@@ -167,7 +167,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = " ";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // button1
             // 
@@ -179,7 +179,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = " ";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.handleClick);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.handleClick);
             // 
             // Form1
             // 
